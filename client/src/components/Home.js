@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { Header } from 'semantic-ui-react';
+import React, { Fragment } from 'react';
+import Coinform from './CoinForm';
+import CoinList from './CoinList';
 
-class Home extends Component {
-  render() {
-    return (
-      <Header as='h1' textAlign='center'>Home Component</Header>
-    );
-  }
-}
+class Home = () => (
+  <Fragment>
+    <CoinForm />
+    <CoinList />
+  </Fragment>
+)
 
 export default Home;
