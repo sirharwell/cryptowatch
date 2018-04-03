@@ -20,7 +20,7 @@ class App extends Component {
         <FetchUser>
           <Switch>
             <ProtectedRoute exact path='/' component={Home} />
-            <ProtectedRoute
+            <ProtectedRoute 
               exact
               path="/coins/:id"
               component={Coin}
