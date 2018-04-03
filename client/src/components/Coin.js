@@ -7,6 +7,14 @@ import {
   Loader,
   Dimmer,
 } from 'semantic-ui-react';
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+} from 'recharts';
 import axios from 'axios';
 import { connect } from 'react-redux';
 import { setHeaders } from '../actions/headers';
