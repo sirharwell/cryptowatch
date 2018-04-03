@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
-import Coinform from './CoinForm';
+import CoinForm from './CoinForm';
 import CoinList from './CoinList';
 
-class Home = () => (
+const Home = () => (
   <Fragment>
     <CoinForm />
     <CoinList />
   </Fragment>
 )
 
-export default Home;
+export default Home

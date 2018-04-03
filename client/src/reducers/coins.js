@@ -2,7 +2,7 @@ import {
   COINS,
   ADD_COIN,
   REMOVE_COIN,
-} from '../action/coins';
+} from '../actions/coins';
 
 const coins = ( state = [], action ) => {
   switch ( action.type ) {
@@ -21,3 +21,7 @@ const coins = ( state = [], action ) => {
 }
 
 export default coins
+
+
+
+

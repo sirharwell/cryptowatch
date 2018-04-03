@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import {
-  Table,
-  Header,
+import { 
+  Table, 
+  Header, 
   Divider,
   Button,
 } from 'semantic-ui-react';
